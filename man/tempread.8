@@ -1,0 +1,21 @@
+.TH TEMPREAD 8
+
+.SH NAME
+tempread \- an temperature reading application
+.SH SYNOPSIS
+.B ./tempread
+[\fR\fIOPTION\fR]...
+[\fR\fIOPTION\fR]...
+
+.SH DESCRIPTION
+.B tempread
+is an application that measures temperature with Raspberry Pi and processes the data using BASH
+
+.SH OPTIONS
+.TP
+.BR \-d
+The device serial number. Lets the user specify the device on bus1 to read from.
+
+.TP
+.BR \-v
+Makes the output Verbose. Helps in debugging. It will copy the temperature 1wire file to stdout as well as do the primary task
